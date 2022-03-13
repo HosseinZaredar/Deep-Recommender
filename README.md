@@ -12,7 +12,7 @@ The model learns an embedding for each user and each movie and concatenates the 
 Result on 10% of the data held out as the validation set: ```RMSE= 0.848```
 
 ## How to Run
-The trained model and related files are located in ```./models``` directory.\
+The trained model and related files are located in ```./model``` directory.\
 \
 To use the service, first we need to build a docker image:
 ```
