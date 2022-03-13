@@ -1,14 +1,14 @@
 # Deep-Recommender
-A Simple Recommendation System on MovieLens dataset developed with PyTorch and served with TorchServe REST API.
+A simple Recommendation System on MovieLens dataset developed with PyTorch and served with TorchServe REST API.
 
 
 ## Dataset
-The [MovieLenst-1M](https://grouplens.org/datasets/movielens/) dataset that contains 1 million ratings from 6000 users on 4000 movies
+The [MovieLenst-1M](https://grouplens.org/datasets/movielens/) dataset that contains 1 million ratings from 6000 users on 4000 movies.
 
 ## Model Architecture
-The model learns an embedding for each user and each movie and concatenates the embeddings with user features (gender and age) and movie features (genre) to build a rich feature space. On top of that, a 3-layer MLP learns to predict a user's rating on a certain movie.
+The model learns an embedding for each user and each movie and concatenates the embeddings with user features (gender and age) and movie features (genre) to build a rich feature space. On top of that, a 3-layer MLP learns to predict users' ratings on the movies in the dataset.
 
-## Results
+## Result
 Result on 10% of the data held out as the validation set: ```RMSE= 0.848```
 
 ## How to Run
